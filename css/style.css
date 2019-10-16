@@ -264,6 +264,7 @@ body {
     line-height: 50px;
     max-width: 470px;
     margin-bottom: 30px;
+    padding-top: 40px;
 }
 
 .tabs__content {
@@ -409,7 +410,7 @@ body {
 
 .tabs__box .tab {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     width: 50%;
     text-transform: none;
     display: flex;
