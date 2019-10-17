@@ -596,6 +596,10 @@ body {
     top: 30px;
 }
 
+.mobile-bg {
+    display: none;
+}
+
 .history{
     padding-top: 270px;
     margin-bottom: 50px;

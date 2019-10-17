@@ -1,3 +1,130 @@
+@media (max-width: 1640px) {
+    .popularity__right{
+        background-color: #fff;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .history__form {
+        margin-left: 0;
+    }
+    .history__wrapper {
+        background-size: 50%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .popularity__wrapper {
+        background-size: 750px;
+    }
+}
+
+@media (max-width: 1230px){
+    .popularity__wrapper{
+        background-image: none;
+        min-height: 0;
+    }
+    .popularity__inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .popularity__right {
+        padding-left: 0;
+        max-width: 800px;
+        order: 0;
+    }
+    .mobile-bg {
+        background-image: url("../img/popularity.jpg");
+        display: block;
+        background-repeat: no-repeat;
+        min-height: 645px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .popularity {
+        position: relative;
+        padding-top: 50px;
+    }
+    .popularity__box {
+        order: 1;
+        max-width: 600px;
+        position: absolute;
+        z-index: 5;
+        bottom: -110px;
+    }
+    .popularity__box-text {
+        margin-right: 0;
+        padding: 30px;
+    }
+    .history {
+        background-color: #f6f9f3;
+        padding-top: 160px;
+    }
+    .history .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .history__wrapper {
+        background-image: none;
+        min-height: 0;
+    }
+    .history__title {
+        text-align: center;
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .history__text {
+        max-width: 100%;
+        padding-bottom: 60px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .history__form {
+        max-width: 100%;
+        background-color: #fff;
+        padding: 30px 50% 242px 45px;
+        position: relative;
+    }
+    .history__form::after {
+        content: "";
+        width: 355px;
+        height: 420px;
+        background-image: url("../img/alonso.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 15px;
+        top: -25px;
+    }
+    .quote,
+    .quote__wrapper {
+        padding: 0;
+        min-height: 0;
+        background-image: none;
+    }
+    .composition__box {
+        max-width: 100%;
+        order: 0;
+    }
+    .composition__item {
+        order: 1;
+    }
+    .composition__row {
+        justify-content: space-around;
+    }
+    .composition__link {
+        max-width: 600px;
+    }
+    .reviews-text:nth-child(even) {
+        display: none;
+    }
+    .reviews-text {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 1120px) {
     .advantages__inner {
         flex-wrap: wrap;
@@ -11,6 +138,23 @@
 @media (max-width: 1040px) {
     .top__inner-img {
         margin-left: 0;
+    }
+    .items {
+        background-color: #f6f9f3;
+    }
+    .items__title {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .items__inner {
+        padding: 20px 5px;
+    }
+    .item {
+        margin-left: 7px;
+        width: 33.3333%;
+        height: 33.3333%;
     }
 }
 
@@ -92,7 +236,6 @@
     .top__inner-text {
         width: 280px;
         margin-right: 100px;
-
     }
     .top__inner-title {
         font-size: 50px;
@@ -101,6 +244,18 @@
     .top__inner-text {
         font-size: 16px;
         margin-bottom: 27px;
+    }
+    .item{
+        min-height: 275px;
+    }
+    .composition__link {
+        order: 2;
+    }
+    .reviews__link {
+        flex-direction: column;
+    }
+    .reviews__link-tab {
+        margin-bottom: 30px;
     }
 }
 
@@ -132,6 +287,118 @@
         font-size: 30px;
         line-height: 40px;
     }
+    .popularity__box {
+        bottom: -10px;
+    }
+    .popularity__right-title {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 540px;
+    }
+    .popularity__right-sutitle {
+        text-align: center;
+    }
+    .history__title {
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 460px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .history__text {
+        padding-top: 10px;
+    }
+    .history__form {
+        padding-right: 57%;
+        padding-bottom: 135px;
+    }
+    .items__wrapper {
+        min-height: 300px;
+    }
+    .items__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .item{
+        min-width: 225px;
+        min-height: 225px;
+    }
+    .composition__box {
+        margin: 0 auto;
+        max-width: 540px;
+        padding: 0;
+    }
+    .composition__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .composition__title br {
+        display: none;
+    }
+    .composition__item-inner {
+        width: 332px;
+        height: 332px;
+    }
+    .composition__link {
+        width: 332px;
+        height: 332px;
+        padding: 80px 30px;
+        margin-left: 0;
+    }
+    .composition__link-text {
+        padding-left: 0;
+        position: absolute;
+        width: 280px;
+    }
+    .composition__link-text::before {
+        display: none;
+    }
+    .composition__link-btn {
+        left: 0;
+        width: 330px;
+        padding: 22px 79px 22px 62px;
+    }
+    .composition__link-text p+p {
+        display: none;
+    }
+    .reviews__content {
+        padding-bottom: 150px;
+    }
+    .reviews__title {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .reviews__title br {
+        display: none;
+    }
+    .reviews__link {
+        margin-top: -192px;
+    }
+    .reviews__link-tab {
+        margin-right: 0;
+    }
+    .reviews-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .reviews-text:nth-child(odd) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .reviews-text:nth-child(odd):before {
+        left: 0;
+    }
+    .reviews__tab {
+        width: 49%;
+        text-align: center;
+        padding: 25px 5px;
+        display: inline-block;
+    }
+    .reviews__tab + .reviews__tab {
+        padding-left: 40px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -150,10 +417,47 @@
 }
 
 
+@media (max-width: 740px) {
+    .reviews__link-popup {
+        width: 100%;
+        text-align: center;
+        padding: 22px 5px;
+    }
+    .reviews__link-popup::after {
+        display: none;
+    }
+}
+
 
 @media (max-width: 700px) {
     .header__text {
         display: none;
+    }
+    .history__title {
+        padding-top: 0;
+    }
+    .history__form {
+        padding-right: 45px;
+        padding-top: 385px;
+        padding-bottom: 50px;
+    }
+    .history__form::after {
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 385px;
+    }
+}
+
+@media (max-width: 680px) {
+    .items__inner {
+        display: block;
+    }
+    .item {
+        max-width: 100%;
+        width: 100%;
+        border: none;
     }
 }
 
@@ -196,6 +500,22 @@
     }
     .advantages__inner {
         padding-top: 10px;
+    }
+    .popularity__box-link {
+        max-width: 600px;
+        padding: 22px 10px;
+        text-align: center;
+        width: 100%;
+        position: static;
+        display: block;
+    }
+    .popularity__box-link::after {
+        display: none;
+    }
+    .quote_inner {
+        font-size: 20px;
+        line-height: 35px;
+        border: none;
     }
 }
 
@@ -258,7 +578,7 @@
 }
 
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
     .header__phone {
         font-size: 14px;
     }
@@ -307,7 +627,49 @@
         left: 72px;
         bottom: 8px;
     }
-
+    .popularity__wrapper {
+        min-height: 0;
+    }
+    .popularity__right-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .popularity__right-list li {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .mobile-bg {
+        min-height: 245px;
+    }
+    .popularity__box {
+        bottom: -250px;
+        padding: 0;
+    }
+    .popularity__box-text {
+        text-align: center;
+        border: none;
+        font-size: 14px;
+    }
+    .history__title {
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 150px;
+    }
+    .history__form {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .quote_inner {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .author {
+        font-size: 14px;
+        line-height: 24px;
+        width: 145px;
+        margin: 20px auto;
+    }
 }
 
 @media (max-width: 360px) {
@@ -350,7 +712,86 @@
     .list__link a::after {
         display: none;
     }
+    .history__form {
+        text-align: center;
+    }
+    .history__form-title {
+        padding-right: 0;
+    }
+    .history__form input {
+        text-align: center;
+    }
+    .form__btn {
+        padding: 22px 5px;
+    }
+    .form__btn::after {
+        display: none;
+    }
+    .items__inner {
+        background-color: #f7f9f2;
+    }
+    .items__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .item__number {
+        color: #fff;
+    }
+    .composition {
+        padding: 115px 0 100px;
+    }
+    .composition__title {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .composition__box-list {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .composition__item-inner {
+        width: 300px;
+        height: 300px;
+    }
+    .composition__link {
+        width: 300px;
+        height: 100%;
+        border: none;
+        padding: 0;
+        text-align: center;
+    }
+    .composition__link-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .composition .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .composition__link-btn {
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 22px 10px;
+        text-align: center;
+        bottom: -210px;
+    }
+    .composition__link-btn::after {
+        display: none;
+    }
+    .reviews {
+        margin-top: 150px;
+    }
+    .reviews__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .reviews__tab {
+        font-size: 10px;
+        line-height: 18px;
+    }
 }
+
 
 /*@media (max-width: 320px) {*/
 /*}*/
