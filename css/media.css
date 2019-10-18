@@ -156,6 +156,13 @@
         width: 33.3333%;
         height: 33.3333%;
     }
+    .certificate__content {
+        padding-left: 0;
+    }
+    .footer__phone,
+    .footer__logo {
+        display: none;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -256,6 +263,45 @@
     }
     .reviews__link-tab {
         margin-bottom: 30px;
+    }
+    .certificate {
+        padding-top: 50px;
+    }
+    .certificate__inner {
+        display: block;
+        height: 100%;
+    }
+    .certificate__content {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .certificate__title {
+        text-align: center;
+    }
+    .certificate__text {
+        padding-right: 0;
+        text-align: center;
+    }
+    .certificate__images {
+        padding: 25px 0;
+        position: static;
+        text-align: center;
+    }
+}
+
+@media (max-width: 840px) {
+    .reviews__link {
+        margin-bottom: 60px;
+    }
+    .build__inner-box {
+        padding: 60px 45px 70px 50px;
+    }
+    .build__wrapper {
+        background-image: none;
+    }
+    .build__inner {
+        padding: 0;
+        max-width: 644px;
     }
 }
 
@@ -399,6 +445,11 @@
     .reviews__tab + .reviews__tab {
         padding-left: 40px;
     }
+    .footer__inner {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 760px) {
@@ -413,6 +464,24 @@
     .advantages__item {
         padding-right: 30px;
         margin-bottom: 60px;
+    }
+    .build__wrapper {
+        min-height: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .build__inner-box {
+        border: none;
+        padding: 0;
+    }
+    .build__link {
+        padding: 22px 5px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .build__link::after {
+        display: none;
     }
 }
 
@@ -670,6 +739,40 @@
         width: 145px;
         margin: 20px auto;
     }
+    .reviews__tab {
+        font-size: 12px;
+    }
+    .reviews__tab + .reviews__tab {
+        padding-left: 25px;
+    }
+    .build__title {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .build__text span {
+        text-align: center;
+        font-size: 14px;
+    }
+    .certificate__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .certificate__images img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .certificate__box fieldset {
+        padding: 45px 10px 95px 10px;
+    }
+    .certificate__link {
+        padding: 18px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .certificate__link::after {
+        display: none;
+    }
 }
 
 @media (max-width: 360px) {
@@ -790,18 +893,29 @@
         font-size: 10px;
         line-height: 18px;
     }
+    .certificate {
+        padding-top: 30px;
+        background-color: #f6f9f3;
+    }
+    .certificate__box {
+        padding: 0;
+        background-color: #f6f9f3;
+    }
+    .certificate__box legend {
+        text-align: center;
+    }
+    .certificate__box fieldset {
+        border: none;
+        padding: 0;
+        font-size: 14px;
+    }
+    .certificate__link {
+        padding: 22px 5px;
+        display: block;
+        margin-top: 25px;
+        position: static;
+    }
+    .certificate__text {
+        font-size: 12px;
+    }
 }
-
-
-/*@media (max-width: 320px) {*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
